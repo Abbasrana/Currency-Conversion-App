@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Currency Conversion Test</string>
+    <string name="conversion_editText_hint">Enter amount</string>
+</resources>
