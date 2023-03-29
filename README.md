@@ -23,8 +23,8 @@ Architecture (MVVM):
 - Unit test
 
 Future Plan:
-Migrating Ui to Jetpack Compose
-Integrating CI/CD
-Adding Automated Tests
+- Migrating Ui to Jetpack Compose
+- Integrating CI/CD
+- Adding Automated Tests
 
 
