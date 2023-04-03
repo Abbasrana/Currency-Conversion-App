@@ -51,8 +51,8 @@ class FetchCurrencyConversionUsecaseTest {
                 CoreMatchers.instanceOf(DataState.Success::class.java)
             )
 
-            val photosList = (currListDataState as DataState.Success).data
-            MatcherAssert.assertThat(photosList, CoreMatchers.notNullValue())
-            MatcherAssert.assertThat(photosList.size, `is`(givenCurrencies.size))
+            val list = (currListDataState as DataState.Success).data
+            MatcherAssert.assertThat(list, CoreMatchers.notNullValue())
+            MatcherAssert.assertThat(list.size, `is`(givenCurrencies.size))
         }
 }
