@@ -22,6 +22,9 @@ Architecture (MVVM):
 - Usecases
 - Unit test
 
+Pending Tasks:
+- Need to remove business logic from repository and add it into usecase
+
 Future Plan:
 - Migrating Ui to Jetpack Compose
 - Integrating CI/CD
